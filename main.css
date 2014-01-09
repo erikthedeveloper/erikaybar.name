@@ -1,0 +1,161 @@
+/*
+Colors
+    Draught       : F0EBD8
+    Kahtan        : C3DAC6
+    Pixel Flesh   : D6A465
+    Butternut Brun: CFB875
+    Jealous Shaman: D67435
+    Grand Canal   : 69897C
+ */
+
+/*============================
+=            Tags            =
+============================*/
+
+html{
+    height: 100%;
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    background-color: #F0EBD8;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6em;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.h1-tagline {
+    color: #fff;
+    font-weight: 300;
+}
+h2{}
+h3{}
+h4{}
+h5{}
+
+/*=======================================
+=            Utility Classes            =
+=======================================*/
+
+/**
+ * Text
+ */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-small {
+    font-size: 75%;
+}
+.text-large {
+    font-size: 150%;
+}
+
+.text-light {
+    font-weight: lighter;
+}
+
+/**
+ * Position
+ */
+ .absolute {position: absolute;}
+
+.center-horizontal {
+    margin-left: auto; margin-right: auto;
+}
+
+.center-vertical {
+
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+/**
+ * Misc
+ */
+.rounded {
+    border-radius: 500px;
+}
+
+
+/*===========================================
+=            Homepage "Sections"            =
+===========================================*/
+
+
+.section {
+    min-height: 600px;
+    margin:0;
+    padding: 25px 100px;
+    border-bottom:1px #c2c2c2 solid;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-intro{
+    background-color: #fff;
+}
+
+.section-intro img {
+    min-height: 100%;
+    min-width:  100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+.img-blur {
+    -webkit-filter: blur(5px);
+    transition: all 0.8s;
+}
+.img-blur:hover {
+    opacity: 0;
+}
+
+.section-bio{
+    background-color: #69897C;
+}
+.section-skills{
+    background-color: #CFB875;
+}
+.section-fact{
+    background-color: #D67435;
+}
+.section-links{
+    background-color: #fff;
+    min-height: 0;
+}
+.social-round {
+    border-radius: 500px;
+    opacity: 0.7;
+    transition: all 500ms;
+}
+.social-round:hover {
+    opacity: 1;
+}
+
+
+
+/*================================
+=            Grid-ish            =
+================================*/
+
+.col-4 {
+    width: 33.33333%;
+    float: left;
+}
+
